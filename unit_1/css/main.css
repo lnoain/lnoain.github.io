@@ -31,14 +31,24 @@ body {
 }
 
 #button {
-		background-color: #555555;
+		font-family: 'Dosis', sans-serif;
+		font-size: 18px; 
+		text-align: center; 
+		background-color:#354d89; 
+		color:#FFFFFF; 
+		text-decoration: none; 
+		font-weight:bold; 
+		display:block; 
+		padding:15px; 
+		width:180px; 
+		border-radius:30px
 }
 
 h1 {
 	text-align: center;
   	font-family: 'Dosis', sans-serif;
   	font-size: 45px;
-  	color: #354d89;
+  	color: white;
 }
 
 h3 {
