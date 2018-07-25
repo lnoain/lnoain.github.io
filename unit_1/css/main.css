@@ -6,27 +6,55 @@ body {
 }
 
 #portada {
-	background-image: url("images/cr-graft.jpg");
+	background-image: url("file:///T:/GitHub/lnoain.github.io/unit_1/images/cro-portada-dibujo.jpg");
 	background-size: cover;
   	margin: 0em;
   	padding: 3em 3em 3em 3em;
   	color: white;
+  	text-align: center; 
+  	height: 360px;
 }
 
+#portada p {
+	background: rgba(15,37,43,0.4);
+	font-family: 'Dosis', sans-serif;
+	font-size: 22px;
+	margin: none;
+	padding: 1.5em 1.5em;
+	position: center;
+	font-size: 22px;
 
-h1, h3 {
+}
+
+#portada span {
+		opacity: 1;
+}
+
+#button {
+		background-color: #555555;
+}
+
+h1 {
+	text-align: center;
+  	font-family: 'Dosis', sans-serif;
+  	font-size: 45px;
+  	color: #354d89;
+}
+
+h3 {
 	text-align: center;
   	font-family: 'Dosis', sans-serif;
   	font-size: 30px;
-  	color: #c0dec5;
+  	color: #354d89;
 }
 
 p, a {
+	background-color: #000000;
 	font-family: 'Dosis', sans-serif;
 	font-size: 18px;
 	line-height: 1.5em;
-	margin: 1.5em;
 }
+
 header a {
   text-decoration: none;
   color: #000000;
