@@ -45,31 +45,45 @@ body {
 	float: none;
 }
 
-#info {
-	background-color: #fff7b9;
-	color: black;
-	float: left;
+
+#info{
+	margin: 1em 0px 0px 0px;
 }
 
-#description p {
-	background-color: #fff7b9;
-	color: black;
-	width: 33%;
-	padding: 1em;
+#info2{
+	margin: 1em 0px 0px 0px;
+}
+
+#why{
+	margin: 1em 0px 0px 0px;
+	background-color: #ffb6e5;
+	padding: 3em;
+	float: none;
+	border-radius:30px
 }
 
 #description {
 	width: 40%;
+	background-color: #fff7b9;
 	padding: 2em;
 	float: left;
+	border-radius:30px
 }
 
+#description p {
+	background-color: #fff7b9;
+}	
 
 #factors {
 	width: 50%;
 	background-color: #d3eaf3;
 	padding: 2em;
 	float: right;
+	border-radius:30px
+}
+
+#factors li {
+	background-color: #d3eaf3;
 }
 
 h1 {
@@ -80,14 +94,13 @@ h1 {
 }
 
 h2 {
-	background-color: 
 	text-align: center;
   	font-family: 'Dosis', sans-serif;
   	font-size: 30px;
   	color: #354d89;
 }
 
-p, a {
+p, a, li {
 	background-color: #eeeeee;
 	font-family: 'Dosis', sans-serif;
 	font-size: 18px;
