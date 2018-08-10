@@ -63,7 +63,7 @@ body {
 
 
 #why{
-	margin: 1em 0px 0px 0px;
+	margin: 5em 5px 0px 0px;
 	background-color: #ffb6e5;
 	padding: 3em;
 	float: none;
@@ -85,6 +85,10 @@ body {
 	padding: 0.5em;
 }
 
+#proceso {
+	padding: 10em;
+}
+
 h1 {
 	text-align: center;
   	font-family: 'Dosis', sans-serif;
@@ -92,7 +96,7 @@ h1 {
   	color: white;
 }
 
-h2 {
+h2, h3 {
 	text-align: center;
   	font-family: 'Dosis', sans-serif;
   	font-size: 30px;
