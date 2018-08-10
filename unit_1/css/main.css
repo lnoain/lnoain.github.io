@@ -1,12 +1,18 @@
 @import url(https://fonts.googleapis.com/css?family=Dosis);
 
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;`
+}
+
 
 body {
   	background: #eeeeee;
 }
 
 #portada {
-	background-image: url("file:///T:/GitHub/lnoain.github.io/unit_1/images/cro-portada-dibujo.jpg");
+	background-image: url("../images/cro-portada-dibujo.jpg");
 	background-size: cover;
   	margin: 0em;
   	padding: 3em 3em 3em 3em;
@@ -33,57 +39,50 @@ body {
 #button {
 	font-family: 'Dosis', sans-serif;
 	font-size: 18px; 
-	text-align: center; 
-	background-color:#354d89; 
-	color:#FFFFFF; 
+	background-color: #354d89; 
+	color: #FFFFFF; 
 	text-decoration: none; 
-	font-weight:bold; 
-	display:block; 
-	padding:15px; 
-	width:180px; 
-	border-radius:30px
-	float: none;
+	font-weight: bold; 
+	display: inline-block; 
+	padding: 1em 2em; 
+	border-radius:30px;
 }
 
 
-#info{
+#info {
 	margin: 1em 0px 0px 0px;
 }
 
-#info2{
-	margin: 1em 0px 0px 0px;
+#info section {
+	width: 49%;
+	float: left;
+	margin: 0.5%;
+	border-radius: 30px;
+	padding: 2em;
 }
+
 
 #why{
 	margin: 1em 0px 0px 0px;
 	background-color: #ffb6e5;
 	padding: 3em;
 	float: none;
-	border-radius:30px
+	border-radius:30px;
+	clear: both;
 }
 
 #description {
-	width: 40%;
-	background-color: #fff7b9;
-	padding: 2em;
-	float: left;
-	border-radius:30px
-}
-
-#description p {
 	background-color: #fff7b9;
 }	
 
 #factors {
-	width: 50%;
 	background-color: #d3eaf3;
-	padding: 2em;
-	float: right;
-	border-radius:30px
 }
 
-#factors li {
-	background-color: #d3eaf3;
+#process img {
+	width: 25%;
+	float: left;
+	padding: 0.5em;
 }
 
 h1 {
@@ -101,7 +100,6 @@ h2 {
 }
 
 p, a, li {
-	background-color: #eeeeee;
 	font-family: 'Dosis', sans-serif;
 	font-size: 18px;
 	line-height: 1.5em;
